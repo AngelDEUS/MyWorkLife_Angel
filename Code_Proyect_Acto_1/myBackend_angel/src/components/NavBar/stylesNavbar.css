@@ -1,0 +1,77 @@
+:root {
+    --NavBar-BG: #1d1e1f;
+    --NavBar-btn-s: #747575;
+
+    --NavBar-btn-home: #ff3b3b;
+}
+
+.mainNavBar {
+    display: flex;
+    width: 100vh;
+    height: 40px;
+    background-color: var(--NavBar-BG);
+    padding: 20px 0;
+}
+
+.contentNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navBar_RightThgs,
+.navBar_LeftThgs {
+    display: flex;
+}
+
+.navBar_list {
+    display: flex;
+    gap: 20px;
+}
+
+.navBar_Button {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 11pt;
+    transition: opacity .4s ease;
+}
+
+.navBar_Button:hover{
+    color: white;
+    opacity: 50%;
+}
+
+.navBar_Button:active{
+    color: white;
+    opacity: 100%;
+}
+
+.spaceNavBar {
+    width: 200px;
+    height: auto;
+}
+
+.navHome_btn{
+    list-style: none;
+    cursor: pointer;
+    font-size: 11pt;
+    color: var(--NavBar-btn-home);
+    transition: opacity .4s ease;
+}
+
+.navHome_btn:hover{
+    color: var(--NavBar-btn-home);
+    opacity: 50%;
+}
+
+.navHome_btn:active{
+    color: var(--NavBar-btn-home);
+    opacity: 100%;
+}
+.logoNavbarrrrr{
+    color: #656668;
+    font-weight: 600;
+    text-transform: uppercase;
+}
