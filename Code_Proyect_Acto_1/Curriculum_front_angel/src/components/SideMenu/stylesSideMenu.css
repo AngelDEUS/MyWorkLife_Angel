@@ -1,0 +1,199 @@
+@import url('./../../styelsGlobal/mainColors.css');
+
+.mainSideMenu {
+    display: flex;
+    width: fit-content;
+    height: 100vh;
+    padding: 20px;
+    background-color: var(--ColorMain-03);
+    box-sizing: border-box;
+}
+
+.sideMenuContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+/* -------------   Menu Styles   */
+.options_SideMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.upperButton {
+    display: flex;
+    width: 100%;
+}
+
+.buttonMain_Sidemenu {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 10px;
+    border-radius: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: var(--ColorMain-02);
+    color: white;
+    transition: all .2s ease;
+}
+
+.buttonMain_Sidemenu:hover {
+    color: var(--ColorMain-01);
+}
+
+.buttonMain_Sidemenu:active {
+    color: white;
+    background-color: var(--ColorMain-01);
+}
+
+/*   Menu OPTIONS  */
+.sideMenu_list {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sideMenu_Button {
+    text-decoration: none;
+    color: var(--ColorMain-02);
+    font-size: 12pt;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color .4s ease-in, color .3s ease, background-color .6s ease;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.sideMenu_Button:hover {
+    background-color: var(--ColorMain-04);
+}
+
+.sideMenu_Button:active {
+    color: white;
+    background-color: var(--ColorMain-01);
+}
+
+
+
+/*  publicity  */
+.publicity_Container {
+    padding: 5px 8px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.textThings__publicity {
+    display: flex;
+    flex-direction: column;
+    font-size: 10pt;
+    align-items: end;
+    position: relative;
+}
+
+.tagAsian__publicity {
+    margin-top: 10px;
+    font-weight: bolder;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    position: absolute;
+    left: 0;
+}
+
+.tag__publicity {
+    padding: 2px 8px;
+    background-color: var(--ColorMain-02);
+    color: white;
+    font-size: 9pt;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.tittles__publicity {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 20pt;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.tittle__publicity,
+.subTittle__publicity {
+    margin: 0;
+    font-weight: bold;
+}
+
+.tittle__publicity {
+    color: var(--ColorMain-02);
+}
+
+.subTittle__publicity {
+    color: var(--ColorMain-04);
+}
+
+.textInfo__publicity {
+    text-align: right;
+    font-size: 8pt;
+}
+
+.btns__publicity {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.btn_publicity_See,
+.btn_publicity_Go {
+    padding: 8px 12px;
+    font-size: 8pt;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-top: 13px;
+    border: none;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.btn_publicity_See {
+    color: var(--ColorMain-02);
+    background-color: white;
+    border: 1px solid var(--ColorMain-02);
+}
+
+.btn_publicity_Go {
+    color: white;
+    background-color: var(--ColorMain-02);
+    border: 1px solid var(--ColorMain-02);
+}
+
+.btn_publicity_See:hover,
+.btn_publicity_Go:hover {
+    opacity: 50%;
+}
+
+.btn_publicity_See:active {
+    opacity: 1;
+    color: white;
+    background-color: var(--ColorMain-02);
+    border: 1px solid var(--ColorMain-02);
+
+}
+
+.btn_publicity_Go:active {
+    opacity: 1;
+    color: var(--ColorMain-02);
+    background-color: white;
+    border: 1px solid var(--ColorMain-02);
+}

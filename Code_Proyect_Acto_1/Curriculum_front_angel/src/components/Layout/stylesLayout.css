@@ -1,3 +1,5 @@
+@import url('./../../styelsGlobal/mainColors.css');
+
 .mainLayout {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
     flex-direction: column;
     flex-direction: column;
     min-height: 100vh;
+    background-color: var(--ColorMain-03);
 }
 
 .navBarContainer {
@@ -17,10 +20,19 @@
     z-index: 1000;
 }
 
+.sideMenuContainer{
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 .bodyContainer {
     display: flex;
     flex: 1;
-    padding-top: 60px;
+    background-color: var(--ColorMain-05);
+    margin-left: 250px;
 }
 
 .sideContent_layout_left,
@@ -38,14 +50,16 @@
     flex-direction: column;
     align-items: center;
     flex: 1;
-    background-color: #fff;
-    order: 2;
-    padding-top: 40px;
+    background-color: white;
+    /* order: 2; */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
 }
 
-.sideContent_layout_right {
+/* .sideContent_layout_right {
     order: 3;
-}
+} */
 
 .footerMain {
     background-color: #333;
@@ -55,6 +69,64 @@
     bottom: 0;
     height: 50px;
 }
+
+/*  _______________Slide_______________  */
+/* Publicity Slide */
+.publicity_Slide {
+    display: flex;
+    width: 30px;
+    background-color: var(--ColorMain-02);
+    overflow: hidden;
+    position: relative;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Texto duplicado para el efecto infinito */
+.textSlid__Publicity {
+    text-transform: uppercase;
+    font-weight: bolder;
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 12pt;
+    font-weight: 600;
+    white-space: nowrap;
+    position: absolute;
+    animation: slide 20s linear infinite, fade 5s ease-in-out infinite;
+    opacity: 1;
+}
+
+/* Duplicado del texto para el efecto loop */
+.textSlid__Publicity::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 100%;
+    white-space: nowrap;
+    padding-left: 15px;
+}
+
+/* Animación_____ */
+@keyframes slide {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0.5;
+    }
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
