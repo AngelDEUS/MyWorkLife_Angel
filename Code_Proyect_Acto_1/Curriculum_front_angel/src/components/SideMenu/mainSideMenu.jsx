@@ -1,4 +1,3 @@
-import React from 'react'
 import './stylesSideMenu.css'
 
 const MainSideMenu = () => {
@@ -9,7 +8,7 @@ const MainSideMenu = () => {
                     <div className="upperButton">
                         <button type="button" className='buttonMain_Sidemenu'>
                             <span></span>
-                            <i class="bi bi-list"></i>
+                            <i className="bi bi-list"></i>
                         </button>
                     </div>
                     <div className="sideMenu_list">

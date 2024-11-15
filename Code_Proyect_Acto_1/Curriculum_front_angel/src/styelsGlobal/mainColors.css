@@ -1,7 +1,21 @@
 :root{
+
     /*   COLORES PRIMARIOS   */
     --ColorMain-01: #e32121;
     --ColorMain-02: #1c1419;
     --ColorMain-03: #d3d3d3;
     --ColorMain-04: #b6b6b6;
+
+    /*   COLORES PRIMARIOS   */
+    --Font-Size-1: 5.4rem;
+    --Font-Size-2: 3.6rem;
+    --Font-Size-3: 2.4rem;
+    --Font-Size-4: 1.8rem;
+    --Font-Size-5: 1.4rem;
+    --Font-Size-6: 1.3rem;
+    --Font-Size-7: 1.2rem;
+    --Font-Size-8: 1rem;
+    --Font-Size-9: .8rem;
+    --Font-Size-10: .6rem;
+
 }

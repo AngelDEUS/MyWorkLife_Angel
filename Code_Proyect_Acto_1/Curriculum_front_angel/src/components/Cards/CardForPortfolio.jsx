@@ -1,4 +1,3 @@
-import React from 'react'
 import './StylesCards.css'
 import ImageCard from './../../assets/potography/PP_2_recorted.jpg'
 

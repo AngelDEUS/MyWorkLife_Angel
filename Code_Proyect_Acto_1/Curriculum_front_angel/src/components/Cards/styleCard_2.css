@@ -1,0 +1,128 @@
+@import url(../../styelsGlobal/mainColors.css);
+
+.mainCard__style2 {
+    display: flex;
+    position: relative;
+    width: 270px;
+    height: 270px;
+    border-radius: 50px;
+    background-color: var(--ColorMain-03);
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow .3s ease;
+}
+
+.mainCard__style2:hover {
+    box-shadow: 0px 0px 25px 3px #0000002f;
+}
+
+
+.upperCard {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.contendUpperCard {
+    display: flex;
+    box-sizing: border-box;
+    height: fit-content;
+    border-radius: 40px;
+    margin: 15px;
+    border: .5px solid #ffffff15;
+    background-color: rgba(13, 10, 17, 0.4);
+    backdrop-filter: blur(0.5rem);
+    -webkit-backdrop-filter: blur(0.5rem);
+}
+
+.contentUpperCard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    gap: 15px;
+    padding: 15px;
+    line-height: 1;
+    color: #fff;
+}
+
+.leftInfo_Card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.cardTittle_s {
+    display: flex;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: var(--Font-Size-8);
+}
+
+.infoStadistics_Card {
+    display: flex;
+    font-size: .7rem;
+    gap: 5px;
+}
+
+
+
+.btnCard_Open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: var(--ColorMain-02);
+    font-size: 1.5rem;
+    transition: all .3s ease;
+}
+
+.btnCard_Open i {
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 0;
+}
+
+.btnCard_Open:hover {
+    opacity: 70%;
+}
+
+.btnCard_Open:active {
+    opacity: 100%;
+    color: white;
+    background-color: #000000;
+}
+
+/*   IMAGE   */
+.behidImageCard {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.imageCard_Style2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    -webkit-user-drag: none;
+    transition: all .5s ease;
+}
