@@ -5,7 +5,7 @@
     width: fit-content;
     height: 100vh;
     padding: 20px;
-    background-color: var(--ColorMain-03);
+    background-color: var(--Primary-Color-02);
     box-sizing: border-box;
 }
 
@@ -35,37 +35,37 @@
     align-items: center;
     justify-content: space-between;
     padding: 6px 10px;
-    border-radius: 15px;
+    border-radius: 25px;
     border: none;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
-    background-color: var(--ColorMain-02);
+    background-color: var(--Primary-Color-01);
     color: white;
     transition: all .2s ease;
 }
 
 .buttonMain_Sidemenu:hover {
-    color: var(--ColorMain-01);
+    background-color: var(--SUBPrimary-Color-shadows-01);
 }
 
 .buttonMain_Sidemenu:active {
     color: white;
-    background-color: var(--ColorMain-01);
+    background-color: var(--Primary-Color-01);
 }
 
 /*   Menu OPTIONS  */
 .sideMenu_list {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 5px;
     margin: 0;
     box-sizing: border-box;
 }
 
 .sideMenu_Button {
     text-decoration: none;
-    color: var(--ColorMain-02);
+    color: var(--ColorMain-03);
     font-size: 12pt;
     font-weight: 400;
     cursor: pointer;
@@ -75,12 +75,12 @@
 }
 
 .sideMenu_Button:hover {
-    background-color: var(--ColorMain-04);
+    background-color: var(--Primary-Color-04);
 }
 
 .sideMenu_Button:active {
     color: white;
-    background-color: var(--ColorMain-01);
+    background-color: var(--Primary-Color-01);
 }
 
 

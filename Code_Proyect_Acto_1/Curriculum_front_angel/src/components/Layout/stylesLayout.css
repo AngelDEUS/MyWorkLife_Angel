@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: var(--ColorMain-03);
+    background-color: var(--Primary-Color-02);
 }
 
 .navBarContainer {
@@ -30,14 +30,13 @@
 .bodyContainer {
     display: flex;
     flex: 1;
-    background-color: var(--ColorMain-05);
     margin-left: 250px;
 }
 
 .sideContent_layout_left,
 .sideContent_layout_right {
     width: 200px;
-    background-color: #f4f4f4c4;
+    background-color: red;
 }
 
 .sideContent_layout_left {
