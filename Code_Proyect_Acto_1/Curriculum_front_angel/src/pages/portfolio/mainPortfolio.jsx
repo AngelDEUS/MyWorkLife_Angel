@@ -1,13 +1,12 @@
-import React from 'react'
-import CardForPortfolio from '../../components/Cards/CardForPortfolio'
+import CardP_Best from '../../components/Cards/CardP_Best'
 
 const MainPortfolio = () => {
-var xd = ['xd','sadsa'];
   return (
-    <div className='mainPorfolio_Page' style={{display: 'flex', whiteSpace: 'nowrap'}}>
-        <CardForPortfolio name={xd}/>
-        <CardForPortfolio/>
-        <CardForPortfolio/>
+    <div className='mainPorfolio_Page' style={{ display: 'flex'}}>
+      <div className="contentMainPorfolio_page" style={{ display: 'flex', padding: '30px', gap: '30px' }}>
+        <CardP_Best />
+        <CardP_Best />
+      </div>
     </div>
   )
 }

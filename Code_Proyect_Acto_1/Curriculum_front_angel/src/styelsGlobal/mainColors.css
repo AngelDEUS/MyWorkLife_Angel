@@ -1,4 +1,4 @@
-:root{
+:root {
 
     /*   COLORES PRIMARIOS   */
     --ColorMain-01: #e32121;
@@ -6,7 +6,29 @@
     --ColorMain-03: #d3d3d3;
     --ColorMain-04: #b6b6b6;
 
-    /*   COLORES PRIMARIOS   */
+    /*    COLORES GLOBALES PRIMARIOS   */
+    --Primary-Color-01: #f11f45;
+    --Primary-Color-02: #1b1b1b;
+    --Primary-Color-03: #1f1f1f;
+    --Primary-Color-04: #343434;
+    --Primary-Color-05: #666666;
+    --Primary-Color-06: #dbdbdb;
+
+    /*    COLORES GLOBALES PRIMARIOS   */
+    --SUBPrimary-Color-Bar-01: #282828;
+    --SUBPrimary-Color-Card-01: #262626;
+    --SUBPrimary-Color-slide-01: #161616;
+    --SUBPrimary-Color-bottom-shadow-01: rgba(39, 31, 33, 0.774);
+    --SUBPrimary-Color-shadows-01: #391b22;
+
+    /*   COLORES PRIMARIOS NAVBAR  */
+    --Color-NavBarPort-01: #ebebeb;
+    --Color-NavBarPort-02: #e4e4e4;
+    --Color-NavBarPort-03: #c5c5c5;
+    --Color-NavBarPort-05: #a2a2a2;
+    --Color-NavBarPort-06: #ebebeb;
+
+    /*   TAMAÑOS DE FUENTES PRIMARIOS   */
     --Font-Size-1: 5.4rem;
     --Font-Size-2: 3.6rem;
     --Font-Size-3: 2.4rem;
@@ -15,7 +37,7 @@
     --Font-Size-6: 1.3rem;
     --Font-Size-7: 1.2rem;
     --Font-Size-8: 1rem;
+    --Font-Size-8_5: .9rem;
     --Font-Size-9: .8rem;
     --Font-Size-10: .6rem;
-
 }

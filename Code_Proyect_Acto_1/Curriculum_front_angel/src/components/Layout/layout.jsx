@@ -1,7 +1,7 @@
 //import MainCurriculum from './../../pages/curriculum/mainCurriculum'
 import "./stylesLayout.css";
 import MainSideMenu from '../SideMenu/mainSideMenu';
-import CardPorfolio_style2 from '../Cards/cardPorfolio_style2';
+import MainPortfolio from "../../pages/portfolio/mainPortfolio";
 
 const layout = () => {
   return (
@@ -14,7 +14,8 @@ const layout = () => {
       <div className="bodyContainer">
         {/* <div className="sideContent_layout_left"></div> */}
         <div className="contentPage">
-          <CardPorfolio_style2 />
+          {/* <CardPorfolio_style2 /> */}
+          <MainPortfolio/>
         </div>
         <div className="publicity_Slide">
           <span className="textSlid__Publicity" data-text="50％ 割 引 - 50% de descuento - 50% 할인 - 50% off - 我 们 的 部 分 有 50% 折 扣 - 50％ 割 引 - 50% de descuento - 50% 할인 - 50% off - 我 们 的 部 分 有 50% 折 扣 - 50％ 割 引 - 50% de descuento - 50% 할인 - 50% off - 我 们 的 部 分 有 50% 折 扣 - ">

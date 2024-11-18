@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: white;
+    background-color: var(--Primary-Color-03);
     /* order: 2; */
     border-radius: 15px;
     overflow: hidden;
@@ -93,7 +93,7 @@
     font-weight: 600;
     white-space: nowrap;
     position: absolute;
-    animation: slide 20s linear infinite, fade 5s ease-in-out infinite;
+    animation: slide 35s linear infinite, fade 6s ease-in-out infinite;
     opacity: 1;
 }
 
