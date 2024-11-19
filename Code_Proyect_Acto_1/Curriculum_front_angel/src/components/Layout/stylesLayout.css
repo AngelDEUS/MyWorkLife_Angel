@@ -72,7 +72,7 @@
 .publicity_Slide {
     display: flex;
     width: 30px;
-    background-color: var(--ColorMain-02);
+    background-color: var(--SUBPrimary-Color-slide-01);
     overflow: hidden;
     position: relative;
     margin-left: 15px;

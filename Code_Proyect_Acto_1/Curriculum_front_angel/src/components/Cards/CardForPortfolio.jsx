@@ -17,11 +17,11 @@ const CardForPortfolio = () => {
                     <span className='tittleCard'>{tittleCard}</span>
                     <div className="stadisticsProyect">
                         <div className="groupItemStadistics">
-                            <i class="bi bi-eye"></i>
+                            <i className="bi bi-eye"></i>
                             <span className='subTittleCard'>{subTittleCard}</span>
                         </div>
                         <div className="groupItemStadistics">
-                            <i class="bi bi-star"></i>
+                            <i className="bi bi-star"></i>
                             <span className='subTittleCard'>{subTittleCard}</span>
                         </div>
                     </div>

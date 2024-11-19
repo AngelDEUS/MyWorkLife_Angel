@@ -146,6 +146,7 @@
     transform: translateY(35%);
     transition: all .3s ease;
     opacity: 0;
+    pointer-events: none;
 }
 
 .mainCardP_Best:hover {
@@ -170,8 +171,6 @@
 .mainCardP_Best:hover .descHover__CardP_TOP {
     opacity: 1;
 }
-
-
 
 .contentCard_Hover::before {
     content: '';
