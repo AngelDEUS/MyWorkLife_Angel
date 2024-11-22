@@ -6,8 +6,44 @@
             "desc_roject": "Esta es una card de Mualani y con su chibi.",
             "src_bg_roject": "mualani_Prueba.jpg",
             "src_chib_roject": "mualani_chi_Prueba.png",
-            "likes_roject": "50",
+            "likes_roject": "150",
             "tags_project": ["Genshin Impact", "Character", "Mualani", "web"]
+        },
+        {
+            "id_project": 2,
+            "title_roject": "Mavuika Card",
+            "desc_roject": "Esta es una card de Mavuika y con su chibi.",
+            "src_bg_roject": "Mavuikai_Prueba.jpg",
+            "src_chib_roject": "Mavuica_chi_Prueba.png",
+            "likes_roject": "250",
+            "tags_project": ["Genshin Impact", "Character", "Mavuika", "web"]
+        },
+        {
+            "id_project": 3,
+            "title_roject": "Eula Card",
+            "desc_roject": "Esta es una card de Eula y con su chibi.",
+            "src_bg_roject": "Eula_Prueba.jpg",
+            "src_chib_roject": "Eula_chi_Prueba.png",
+            "likes_roject": "350",
+            "tags_project": ["Genshin Impact", "Character", "Eula", "web"]
+        },
+        {
+            "id_project": 4,
+            "title_roject": "Kirara Card",
+            "desc_roject": "Esta es una card de Kirara y con su chibi.",
+            "src_bg_roject": "Kirara_Prueba.jpg",
+            "src_chib_roject": "Kirara_chi_Prueba.png",
+            "likes_roject": "530",
+            "tags_project": ["Genshin Impact", "Character", "Kirara", "web"]
+        },
+        {
+            "id_project": 5,
+            "title_roject": "Genshin Impact Card",
+            "desc_roject": "Esta es una card del videojuego Genshin Impact y con su Logo.",
+            "src_bg_roject": "Genshin_Prueba.jpg",
+            "src_chib_roject": "Genshin_chi_Prueba.png",
+            "likes_roject": "1150",
+            "tags_project": ["Genshin Impact", "Videjojuego", "web"]
         }
     ]
 }

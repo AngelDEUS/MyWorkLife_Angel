@@ -14,6 +14,8 @@
     transition: all .3s ease;
     position: relative;
     cursor: pointer;
+    background-color: var(--Primary-Color-02);
+    border: 1px solid var(--Primary-Color-02);
 }
 
 
@@ -35,6 +37,7 @@
     height: 100%;
     z-index: 1;
     overflow: hidden;
+    border-radius: inherit;
 }
 
 .imageCard_Backgroud {
@@ -48,6 +51,7 @@
     -webkit-user-drag: none;
     transition: all .5s ease;
     overflow: hidden;
+    border-radius: inherit;
 }
 
 .front_Info__CardP {
@@ -62,22 +66,29 @@
     padding: 30px 20px;
     box-sizing: border-box;
     transition: all .3s ease;
-    border-radius: 70px;
+    /* border-radius: 70px; */
+    border-radius: inherit;
     background: linear-gradient(transparent 60%, var(--Primary-Color-02));
+    background-size: 150%;
+    overflow: hidden;
 }
 
 
 /*    INFO CARD    */
 .descHover__CardP_TOP {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
+    justify-content: center;
+    background-color: red;
     opacity: 0;
     transition: all .5s ease;
     z-index: 12;
     top: 0;
     padding-top: 30px;
     padding-right: 40px;
+    padding-left: 40px;
     position: absolute;
+    text-align: right;
 }
 
 
@@ -88,6 +99,7 @@
     color: var(--Primary-Color-06);
     box-sizing: border-box;
     width: 100%;
+    background-color: aqua;
 }
 
 .infoBottom_CardP {
@@ -141,7 +153,7 @@
     width: 240px;
     height: 240px;
     position: absolute;
-    z-index: 101;
+    z-index: 201;
     bottom: 0;
     transform: translateY(35%);
     transition: all .3s ease;
@@ -152,6 +164,7 @@
 .mainCardP_Best:hover {
     transform: perspective(350px) rotateX(10deg) translateY(-5%);
     border: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 101;
 }
 
 .mainCardP_Best:hover .imgHoverChibi {

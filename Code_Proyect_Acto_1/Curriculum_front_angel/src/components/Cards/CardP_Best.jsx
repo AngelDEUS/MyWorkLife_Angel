@@ -11,12 +11,10 @@ const CardP_Best = ({ title, description, backgroundImage, chibiImage, likes, ta
 
     return (
         <div className='mainCardP_Best'>
-            <span>`./../../assets/pruebas/${chibiImage}`</span>br
-            <span>`./../../assets/pruebas/mualani_chi_Prueba.png`</span>
             <div className="contentCard_Hover">
                 <div className="descHover__CardP_TOP">
                     <p className="descInfo_CardP">{descriptionShow}</p>
-                    <div className="shadowTop_cardP" />
+                    {/* <div className="shadowTop_cardP" /> */}
                 </div>
                 <img className='imgHoverChibi' src={`./../../assets/pruebas/${chibiImage}`} alt="ChibiPrueba.png" />
             </div>
