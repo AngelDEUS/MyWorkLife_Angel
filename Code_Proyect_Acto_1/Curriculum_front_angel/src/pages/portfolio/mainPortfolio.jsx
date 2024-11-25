@@ -1,8 +1,8 @@
 import CardP_Best from '../../components/Cards/CardP_Best'
 import NavBarPorfolio from '../../components/NavBar/NavbarPorfolio/NavBarPorfolio'
-import projectsData from '../../inf_testing/Projects_array.json'
+import projectsData from '../../inf_testing/Projects_array'
 
-const MainPortfolio = ({ title, description, backgroundImage, chibiImage, likes, tags }) => {
+const MainPortfolio = () => {
   const { projects } = projectsData;
   return (
     <div className='mainPorfolio_Page' style={{ display: 'flex', flexDirection: 'column' }}>

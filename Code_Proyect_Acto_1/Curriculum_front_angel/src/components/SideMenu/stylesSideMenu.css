@@ -46,7 +46,8 @@
 }
 
 .buttonMain_Sidemenu:hover {
-    background-color: var(--SUBPrimary-Color-shadows-01);
+    background-color: var(--SUBPrimary-Color-sidebutton-01);
+    color: var(--ColorMain-04);
 }
 
 .buttonMain_Sidemenu:active {
@@ -65,7 +66,7 @@
 
 .sideMenu_Button {
     text-decoration: none;
-    color: var(--ColorMain-03);
+    color: var(--ColorMain-04);
     font-size: 12pt;
     font-weight: 400;
     cursor: pointer;
@@ -76,6 +77,7 @@
 
 .sideMenu_Button:hover {
     background-color: var(--Primary-Color-04);
+    color: white;    
 }
 
 .sideMenu_Button:active {

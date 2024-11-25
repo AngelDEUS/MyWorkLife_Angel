@@ -10,15 +10,6 @@
             "tags_project": ["Genshin Impact", "Character", "Mualani", "web"]
         },
         {
-            "id_project": 2,
-            "title_roject": "Mavuika Card",
-            "desc_roject": "Esta es una card de Mavuika y con su chibi.",
-            "src_bg_roject": "Mavuikai_Prueba.jpg",
-            "src_chib_roject": "Mavuica_chi_Prueba.png",
-            "likes_roject": "250",
-            "tags_project": ["Genshin Impact", "Character", "Mavuika", "web"]
-        },
-        {
             "id_project": 3,
             "title_roject": "Eula Card",
             "desc_roject": "Esta es una card de Eula y con su chibi.",
@@ -37,13 +28,31 @@
             "tags_project": ["Genshin Impact", "Character", "Kirara", "web"]
         },
         {
-            "id_project": 5,
-            "title_roject": "Genshin Impact Card",
-            "desc_roject": "Esta es una card del videojuego Genshin Impact y con su Logo.",
-            "src_bg_roject": "Genshin_Prueba.jpg",
-            "src_chib_roject": "Genshin_chi_Prueba.png",
-            "likes_roject": "1150",
-            "tags_project": ["Genshin Impact", "Videjojuego", "web"]
+            "id_project": 6,
+            "title_roject": "Proyecto Stormy Sales - Grupo",
+            "desc_roject": "Este proyecto es una solución, para la gestión de ventas y rutas de vendedores puerta a puerta.",
+            "src_bg_roject": "Stormy_Sales_Background.jpg",
+            "src_chib_roject": "Stormy_Sales_Logo.png",
+            "likes_roject": "247",
+            "tags_project": ["Proyecto personal", "Aplicación web", "ventas y facturación", "web"]
+        },
+        {
+            "id_project": 7,
+            "title_roject": "app móvil de Inventario",
+            "desc_roject": "Este proyecto es una aplicación móvil para la gestión de inventario de productos.",
+            "src_bg_roject": "Movil_Inventario_background.jpg",
+            "src_chib_roject": "Movil_logo.png",
+            "likes_roject": "247",
+            "tags_project": ["Proyecto personal", "productos e inventario", "aplicacion movil", "app"]
+        },
+        {
+            "id_project": 8,
+            "title_roject": "Random Star Assistant",
+            "desc_roject": "Este proyecto es una herramienta para generar equipos aleatorios alojados en base de datos.",
+            "src_bg_roject": "Random_Star_Assistant_Background.jpg",
+            "src_chib_roject": "Random_assistant_Logo.png",
+            "likes_roject": "247",
+            "tags_project": ["Proyecto personal", "productos e inventario", "aplicacion movil", "app"]
         }
     ]
 }

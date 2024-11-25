@@ -1,12 +1,9 @@
 import './styleCardP_best.css'
-import React from 'react';
 //import ImagenMualani from './../../assets/pruebas/mualani_Prueba.jpg'
 //import ChibiPrueba from './../../assets/pruebas/mualani_chi_Prueba.png'
 
 const CardP_Best = ({ title, description, backgroundImage, chibiImage, likes, tags }) => {
-
     // SET Variables
-    var titleCardP = 'Card title - prueba';
     var descriptionShow = description;
 
     return (
@@ -25,8 +22,8 @@ const CardP_Best = ({ title, description, backgroundImage, chibiImage, likes, ta
                         <h4 className="tittleCardPP">{title}</h4>
                         <div className="sepCardP" />
                         <div className="statsCardP">
-                            <i className="bi bi-suit-heart-fill"></i>
-                            <span className="statsNumberCardP">{likes} likes</span>
+                            <i className="bi bi-eye-fill"></i>
+                            <span className="statsNumberCardP">{likes} Vistas</span>
                         </div>
                     </div>
                 </div>

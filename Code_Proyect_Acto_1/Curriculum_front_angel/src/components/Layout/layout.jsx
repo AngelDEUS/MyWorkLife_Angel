@@ -2,6 +2,7 @@
 import "./stylesLayout.css";
 import MainSideMenu from '../SideMenu/mainSideMenu';
 import MainPortfolio from "../../pages/portfolio/mainPortfolio";
+import AppRoutes from './../../Routes/AppRoutes';
 
 const layout = () => {
   return (
@@ -15,7 +16,7 @@ const layout = () => {
         {/* <div className="sideContent_layout_left"></div> */}
         <div className="contentPage">
           {/* <CardPorfolio_style2 /> */}
-          <MainPortfolio/>
+          <AppRoutes />
         </div>
         <div className="publicity_Slide">
           <span className="textSlid__Publicity" data-text="50％ 割 引 - 50% de descuento - 50% 할인 - 50% off - 我 们 的 部 分 有 50% 折 扣 - 50％ 割 引 - 50% de descuento - 50% 할인 - 50% off - 我 们 的 部 分 有 50% 折 扣 - 50％ 割 引 - 50% de descuento - 50% 할인 - 50% off - 我 们 的 部 分 有 50% 折 扣 - ">

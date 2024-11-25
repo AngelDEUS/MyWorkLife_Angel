@@ -2,7 +2,7 @@
 
     /*   COLORES PRIMARIOS   */
     --ColorMain-01: #e32121;
-    --ColorMain-02: #1c1419;
+    --ColorMain-02: #18191a;
     --ColorMain-03: #d3d3d3;
     --ColorMain-04: #b6b6b6;
 
@@ -13,13 +13,16 @@
     --Primary-Color-04: #343434;
     --Primary-Color-05: #666666;
     --Primary-Color-06: #dbdbdb;
+    --Primary-Color-07: #dbdbdb27;
 
     /*    COLORES GLOBALES PRIMARIOS   */
     --SUBPrimary-Color-Bar-01: #282828;
     --SUBPrimary-Color-Card-01: #262626;
+    --SUBPrimary-Color-Card-likes-01: #ffbaba;
     --SUBPrimary-Color-slide-01: #161616;
     --SUBPrimary-Color-bottom-shadow-01: rgba(39, 31, 33, 0.774);
     --SUBPrimary-Color-shadows-01: #391b22;
+    --SUBPrimary-Color-sidebutton-01: #2e2e2e;
 
     /*   COLORES PRIMARIOS NAVBAR  */
     --Color-NavBarPort-01: #ebebeb;
