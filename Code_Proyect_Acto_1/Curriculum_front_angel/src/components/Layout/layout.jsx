@@ -1,7 +1,7 @@
 //import MainCurriculum from './../../pages/curriculum/mainCurriculum'
 import "./stylesLayout.css";
 import MainSideMenu from '../SideMenu/mainSideMenu';
-import MainPortfolio from "../../pages/portfolio/mainPortfolio";
+//import MainPortfolio from "../../pages/portfolio/mainPortfolio";
 import AppRoutes from './../../Routes/AppRoutes';
 
 const layout = () => {

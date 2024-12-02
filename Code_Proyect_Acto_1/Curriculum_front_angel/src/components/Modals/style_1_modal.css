@@ -109,7 +109,8 @@
 }
 
 .contentCenterModal_S1,
-.Comments_Content_ModalS1 {
+.Comments_Content_ModalS1,
+.Comments_Content_Modal__S1 {
     display: flex;
     flex-direction: column;
     border-radius: 25px;
@@ -119,99 +120,6 @@
     transition: all .5s ease;
 }
 
-/*   ONLINE    */
-.verOnline_Portfolio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.sepVerOnlinePort {
-    width: 25%;
-    height: 1px;
-    background-color: var(--BorderColor-2);
-}
-
-
-.btnVerOnline_S1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    padding: 6px 9px;
-    border-radius: 20px;
-    border: 1px solid var(--ColorMain-02);
-    cursor: pointer;
-    background-color: var(--ColorMain-02);
-    color: var(--ColorMain-03);
-    transition: all .5s ease;
-}
-
-
-.onLineGrup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    padding: 6px 9px;
-    border-radius: 15px;
-    border: 1px solid var(--Primary-Color-01);
-    transition: all .5s ease;
-}
-
-.circleOnLine {
-    width: 10px;
-    height: 10px;
-    background-color: var(--Primary-Color-01);
-    border-radius: 50%;
-    transition: all .5s ease;
-    animation: fade 1.5s ease-in-out infinite;
-    opacity: 1;
-}
-
-@keyframes fade {
-
-    0%,
-    100% {
-        opacity: 1;
-    }
-
-    20% {
-        opacity: 0;
-    }
-}
-
-.btnVerOnline_S1:hover {
-    border: 1px solid var(--BorderColor-2);
-    opacity: 70%;
-}
-
-.btnVerOnline_S1:active .circleOnLine {
-    background-color: var(--ColorMain-02);
-}
-
-.btnVerOnline_S1:active .onLineGrup {
-    border: 1px solid var(--Primary-Color-02);
-}
-
-.btnVerOnline_S1:active {
-    border: 1px solid var(--Primary-Color-01);
-    background-color: var(--Primary-Color-01);
-    opacity: 1;
-}
-
-.btnVerOnline_S1 i {
-    transition: all .5s ease;
-}
-
-.btnVerOnline_S1:hover i {
-    transform: translateX(4px);
-}
-
-.tagVerOnLine {
-    margin-left: 5px;
-}
 
 /* LEFT CONTENT    ---------> */
 .leftInfoModal_S1 {
@@ -277,9 +185,11 @@
     margin-bottom: 8px;
 }
 
+
 .titleProject_ModalS1 {
     font-size: 11pt;
 }
+
 
 .descBreveProject_ModalS1 {
     opacity: 60%;
@@ -290,6 +200,7 @@
 
 }
 
+
 .bottomLeftInf_S1 {
     display: flex;
     justify-content: center;
@@ -297,6 +208,7 @@
     gap: 10px;
     color: var(--ColorMain-03);
 }
+
 
 .itemInffoProyct_S1 {
     display: flex;
@@ -316,6 +228,10 @@
     flex: 1;
 }
 
+.tam_S2 {
+    width: auto;
+    overflow: hidden;
+}
 .contentInto_S1{
     display: flex;
     flex-direction: column;
@@ -401,3 +317,77 @@
     margin-top: 20px;
 }
 
+
+
+/*   ---------------------->   CENTER CONTENT    */
+.modalContentFFull_S1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 0;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+/* CENTER CONTENT ---------> */
+.Comments_Content_Modal__S1{
+    overflow: hidden;
+}
+.contentCenterModal_S1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: var(--Primary-Color-03);
+    border: 1px solid var(--BorderColor-1);
+}
+
+.infoAll_ModalS1 {
+    display: flex;
+    gap: 20px;
+}
+
+.modify1_S1{
+    width: auto;
+    padding: 16px 20px;
+}
+
+.modify2_S1{
+    padding: 15px 20px;
+}
+
+.contenAnimCard_S1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    /* background-color: rgba(0, 0, 255, 0.322); */
+    padding: 20px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.backgroundBTN__LiveWork {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 255, 255, 0.445); */
+    z-index: 10;
+    overflow: hidden;
+}
+
+.circleColor_LiveWork{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #ff4444;
+    position: absolute;
+    z-index: 10;
+    bottom: -100px;
+    right: -100px;
+    box-shadow: 0 0 30px 15px #ff4444;
+    -webkit-filter: blur(50px);
+}

@@ -53,22 +53,13 @@ const Style1Modal = () => {
                     </div>
                 </div>
                 <div className="info_Portfolio_S1">
-                    <div className="Comments_Content_ModalS1 tam_S1">
+                    <div className="Comments_Content_Modal__S1 tam_S2">
                         <div className="contenAnimCard_S1">
                             <AnimCard />
                         </div>
-                        <div className="verOnline_Portfolio">
-                            <div className="buttonContent_VerOnline">
-                                <button type="button" className="btnVerOnline_S1">
-                                    <div className="onLineGrup">
-                                        <div className="circleOnLine" />
-                                        <span className='tagOnLine'>Online</span>
-                                    </div>
-                                    <span className='tagVerOnLine'>Prueba Ahora</span>
-                                    <i className="bi bi-chevron-right"></i>
-                                </button>
-                            </div>
-                            {/* <div className="sepVerOnlinePort" /> */}
+                        <div className="backgroundBTN__LiveWork">
+                            <img src="" alt="" className="imageTopBG__LiveWork" />
+                            <div className="circleColor_LiveWork" />
                         </div>
                     </div>
                     <div className="Comments_Content_ModalS1 tam_S1">

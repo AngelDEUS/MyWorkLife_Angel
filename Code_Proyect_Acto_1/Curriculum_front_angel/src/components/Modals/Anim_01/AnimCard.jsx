@@ -7,9 +7,9 @@ import './styleMainAnimCard.css'
 const AnimCard = () => {
   return (
     <div className='mainAnimCard'>
-        <img src={Anim_BG_01} alt="" className="imgAnim anim_BG_01" />
+        {/* <img src={Anim_BG_01} alt="" className="imgAnim anim_BG_01" />
         <img src={Anim_Icons_02} alt="" className="imgAnim anim_Icons_02" />
-        <img src={Star_Anim_03} alt="" className="imgAnim anim_Star_03" />
+        <img src={Star_Anim_03} alt="" className="imgAnim anim_Star_03" /> */}
     </div>
   )
 }
