@@ -17,7 +17,12 @@ const Style1Modal = () => {
                         <span className="dateProject">2024/11/24</span>
                         <h3 className='titleProject_ModalS1'>Nombre del Proyecto aqui!!</h3>
                     </div>
-                    <p className="descBreveProject_ModalS1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque delectus iste quisquam nisi, quidem totam sequi minus dolor...</p>
+                    <p className="descBreveProject_ModalS1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque delectus iste quisquam nisi, quidem totam sequi minus dolor...
+
+                        <i className="devicon-javascript-plain colored"></i>
+                        <i className="devicon-react-original colored"></i>
+                        <i className="devicon-nodejs-line colored"></i>
+                    </p>
                 </div>
                 <div className="bottomLeftInf_S1">
                     <div className="itemInffoProyct_S1">
@@ -34,8 +39,19 @@ const Style1Modal = () => {
                     </div>
                 </div>
             </div>
-            <div className="contentCenterModal_S1">
-
+            <div className="modalContentFFull_S1">
+                <div className="contentCenterModal_S1">
+                    xd
+                </div>
+                <div className="infoAll_ModalS1">
+                    <div className="contentCenterModal_S1 modify1_S1">
+                        xd
+                    </div>
+                    <div className="contentCenterModal_S1 modify2_S1">
+                        xd
+                    </div>
+                </div>
+                .infoAngel
             </div>
             <div className="rightOptiosModal_S1">
                 <button type="button" className="btnModal_S1">
