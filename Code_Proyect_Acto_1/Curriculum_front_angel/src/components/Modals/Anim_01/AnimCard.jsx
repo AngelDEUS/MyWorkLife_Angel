@@ -7,9 +7,15 @@ import './styleMainAnimCard.css'
 const AnimCard = () => {
   return (
     <div className='mainAnimCard'>
-        {/* <img src={Anim_BG_01} alt="" className="imgAnim anim_BG_01" />
-        <img src={Anim_Icons_02} alt="" className="imgAnim anim_Icons_02" />
-        <img src={Star_Anim_03} alt="" className="imgAnim anim_Star_03" /> */}
+      <div className="Comments_Content_Modal__S1 tam_S2">
+        <div className="contenAnimCard_S1">
+          xxd
+        </div>
+        <div className="backgroundBTN__LiveWork">
+          <img src='' alt="" className="imageTopBG__LiveWork" />
+          <div className="circleColor_LiveWork" />
+        </div>
+      </div>
     </div>
   )
 }

@@ -109,8 +109,7 @@
 }
 
 .contentCenterModal_S1,
-.Comments_Content_ModalS1,
-.Comments_Content_Modal__S1 {
+.Comments_Content_ModalS1 {
     display: flex;
     flex-direction: column;
     border-radius: 25px;
@@ -229,7 +228,6 @@
 }
 
 .tam_S2 {
-    width: auto;
     overflow: hidden;
 }
 .contentInto_S1{
@@ -356,38 +354,3 @@
     padding: 15px 20px;
 }
 
-.contenAnimCard_S1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    width: 100%;
-    /* background-color: rgba(0, 0, 255, 0.322); */
-    padding: 20px;
-    overflow: hidden;
-    z-index: 100;
-}
-
-.backgroundBTN__LiveWork {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    /* background-color: rgba(0, 255, 255, 0.445); */
-    z-index: 10;
-    overflow: hidden;
-}
-
-.circleColor_LiveWork{
-    display: flex;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    background-color: #ff4444;
-    position: absolute;
-    z-index: 10;
-    bottom: -100px;
-    right: -100px;
-    box-shadow: 0 0 30px 15px #ff4444;
-    -webkit-filter: blur(50px);
-}
