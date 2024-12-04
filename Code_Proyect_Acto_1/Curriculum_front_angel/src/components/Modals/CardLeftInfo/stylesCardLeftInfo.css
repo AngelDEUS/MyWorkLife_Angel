@@ -1,0 +1,135 @@
+@import url('./../../../styelsGlobal/mainColors.css');
+
+.mainCardLeftInfo_S1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+    white-space: normal;
+}
+
+.topLeftInfo_S1 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 15px;
+    object-fit: cover;
+}
+
+.profilePicture_ModalS1 {
+    width: var(--Img-PP-Size-1);
+    border-radius: 50%;
+    background-color: var(--ColorMain-02);
+}
+
+.authorInf_ModalS1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.tittleName_ModalS1,
+.tittlePlace_ModalS1 {
+    color: var(--ColorMain-03);
+}
+
+.tittlePlace_ModalS1 {
+    opacity: 30%;
+    font-size: 7.7pt;
+}
+
+/* Center INF */
+.leftCenterInfo_ModalS1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.nameProject_ModalS1 {
+    display: flex;
+    flex-direction: column;
+    color: var(--ColorMain-03);
+    margin: 0;
+    gap: 0;
+    padding: 0;
+}
+
+.dateProject {
+    opacity: 30%;
+    font-size: 10pt;
+    letter-spacing: 1px;
+}
+
+
+.titleProject_ModalS1 {
+    font-size: 11pt;
+    margin: 0;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.descBreveProject_ModalS1 {
+    opacity: 60%;
+    color: var(--ColorMain-03);
+    font-size: 9pt;
+    text-align: justify;
+    margin: 0px;
+
+}
+
+
+.bottomLeftInf_S1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--ColorMain-03);
+}
+
+
+.itemInffoProyct_S1 {
+    display: flex;
+    opacity: 60%;
+    gap: 5px;
+    font-size: 8pt;
+}
+
+.groupAppsInfo_leftS1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dividerLeftInfo_S1 {
+    width: 100%;
+    height: 1px;
+    background-color: var(--Primary-Color-07);
+    opacity: 50%;
+}
+
+.containerAppsInfo_S1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.labelAppsInfo {
+    font-size: 8pt;
+    color: var(--ColorMain-03);
+    opacity: 30%;
+}
+
+.contanerIcons_LeftS1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.contanerIcons_LeftS1 i {
+    color: var(--Primary-Color-01);
+    word-break: break-word;
+}

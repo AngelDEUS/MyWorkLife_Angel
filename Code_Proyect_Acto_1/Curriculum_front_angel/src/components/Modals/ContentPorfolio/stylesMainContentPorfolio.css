@@ -1,0 +1,6 @@
+.mainContainer__ContentPortfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px 19px;
+}

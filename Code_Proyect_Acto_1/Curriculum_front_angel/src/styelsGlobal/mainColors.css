@@ -5,6 +5,8 @@
     --ColorMain-02: #18191a;
     --ColorMain-03: #d3d3d3;
     --ColorMain-04: #b6b6b6;
+    
+    --ColorText-03: #d3d3d37a;
 
     /*    COLORES GLOBALES PRIMARIOS   */
     --Primary-Color-01: #f11f45;
@@ -23,6 +25,7 @@
     --SUBPrimary-Color-bottom-shadow-01: rgba(39, 31, 33, 0.774);
     --SUBPrimary-Color-shadows-01: #391b22;
     --SUBPrimary-Color-sidebutton-01: #2e2e2e;
+    --LogoMiddle-Languge-01: #272727;
 
     /*   COLORES PRIMARIOS NAVBAR  */
     --Color-NavBarPort-01: #ebebeb;

@@ -1,0 +1,179 @@
+@import url('./../../../styelsGlobal/mainColors.css');
+
+.mainContentDescAndStats {
+    display: flex;
+    flex-direction: column;
+    padding: 17px 19px;
+    color: var(--Primary-Color-05);
+    gap: 20px;
+    transition: all .5s ease;
+}
+
+.topDesc_DescStats {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+.tittleDesc_Project__S1 {
+    margin: 0;
+    padding: 0;
+    color: var(--ColorMain-03);
+    font-weight: 500;
+    font-size: 11pt;
+}
+
+.descProject_S1 {
+    margin: 0;
+    font-size: 10pt;
+    text-align: justify;
+}
+
+/*  ----->>> MIDDLE STATS <<<-----  */
+.middleStatsInfo__S1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.groupStat_S1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logoLanguage_S1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17pt;
+    color: var(--ColorMain-03);
+    line-height: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    background-color: var(--LogoMiddle-Languge-01);
+}
+
+.logoLanguage_S1 i {
+    opacity: 30%;
+}
+
+/* ProgressBar ---> */
+.statSubGroup_S1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.cirClePlusTittle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--Primary-Color-06);
+    font-size: 11pt;
+}
+
+.circleStat_S1 {
+    background-color: var(--Primary-Color-01);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+
+/* ProgressBar ---> */
+/* Barra de progreso */
+.progressBar_S1 {
+    width: 100%;
+    height: 8px;
+    background-color: var(--Primary-Color-02);
+    border-radius: 50px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+/* Progreso de la barra */
+.progress_S1 {
+    height: 100%;
+    background-color: var(--Primary-Color-01);
+    border-radius: 50px;
+    width: 0%;
+    position: relative;
+    animation: fillProgress 1.5s ease forwards;
+    animation-delay: 0.3s;
+    --progress: 0%;
+}
+
+/* Número dinámico en movimiento */
+.progress_S1::after {
+    content: attr(data-percentage);
+    position: absolute;
+    top: 12px;
+    left: 100%;
+    transform: translateX(-50%);
+    font-size: 12pt;
+    color: var(--Primary-Color-06);
+    opacity: 0;
+    animation: movePercentage 1.5s ease forwards, fadeInPercentage 1.5s ease forwards;
+    animation-delay: 0.3s;
+}
+
+/* Animación del ancho de la barra */
+@keyframes fillProgress {
+    to {
+        width: var(--progress);
+    }
+}
+
+/* Animación del movimiento del número */
+@keyframes movePercentage {
+    to {
+        left: var(--progress);
+    }
+}
+
+/* Animación de opacidad */
+@keyframes fadeInPercentage {
+    to {
+        opacity: 1;
+    }
+}
+
+/* ----->>> BOTTOM TAGS INFO <<<-----  */
+.bottomTagsInfo__S1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.sepTags_S1 {
+    width: 100%;
+    height: 1px;
+    background-color: var(--Primary-Color-04);
+    opacity: 40%;
+}
+
+.containerTags_S1 {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;       
+    white-space: normal; 
+}
+.textTagger_S1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 10pt;
+    padding: 8px 14px;
+    background-color: var(--Primary-Color-04);
+    border-radius: 50px;
+    color: var(--Primary-Color-06);
+    opacity: 55%;
+    word-break: break-word;
+}

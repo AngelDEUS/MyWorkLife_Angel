@@ -115,7 +115,7 @@
     border-radius: 25px;
     background-color: var(--Primary-Color-03);
     border: 1px solid var(--BorderColor-1);
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: all .5s ease;
 }
 
@@ -124,7 +124,7 @@
 .leftInfoModal_S1 {
     display: flex;
     flex-direction: column;
-    width: 270px;
+    width: 290px;
     background-color: var(--Primary-Color-03);
     margin-left: 30px;
     border-radius: 25px;
@@ -134,87 +134,6 @@
     gap: 35px;
 }
 
-.topLeftInfo_S1 {
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    gap: 15px;
-    object-fit: cover;
-}
-
-.profilePicture_ModalS1 {
-    width: var(--Img-PP-Size-1);
-    border-radius: 50%;
-    background-color: var(--ColorMain-02);
-}
-
-.authorInf_ModalS1 {
-    display: flex;
-    flex-direction: column;
-}
-
-.tittleName_ModalS1,
-.tittlePlace_ModalS1 {
-    color: var(--ColorMain-03);
-}
-
-.tittlePlace_ModalS1 {
-    opacity: 30%;
-    font-size: 7.7pt;
-}
-
-/* Center INF */
-.leftCenterInfo_ModalS1 {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.nameProject_ModalS1 {
-    display: flex;
-    flex-direction: column;
-    color: var(--ColorMain-03);
-    line-height: 0%;
-}
-
-.dateProject {
-    opacity: 30%;
-    font-size: 10pt;
-    letter-spacing: 1px;
-    margin-bottom: 8px;
-}
-
-
-.titleProject_ModalS1 {
-    font-size: 11pt;
-}
-
-
-.descBreveProject_ModalS1 {
-    opacity: 60%;
-    color: var(--ColorMain-03);
-    font-size: 10pt;
-    text-align: justify;
-    margin: 0px;
-
-}
-
-
-.bottomLeftInf_S1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: var(--ColorMain-03);
-}
-
-
-.itemInffoProyct_S1 {
-    display: flex;
-    opacity: 60%;
-    gap: 5px;
-    font-size: 8pt;
-}
 
 
 /*  ------------------>   INFO    */
@@ -230,16 +149,6 @@
 .tam_S2 {
     overflow: hidden;
 }
-.contentInto_S1{
-    display: flex;
-    flex-direction: column;
-    padding: 13px 17px;
-}
-
-.tittleTool_S1{
-    color: var(--Primary-Color-05);
-}
-
 
 /*  ------------------>   COMMENTS    */
 
@@ -329,9 +238,10 @@
 }
 
 /* CENTER CONTENT ---------> */
-.Comments_Content_Modal__S1{
+.Comments_Content_Modal__S1 {
     overflow: hidden;
 }
+
 .contentCenterModal_S1 {
     display: flex;
     flex-direction: column;
@@ -345,12 +255,32 @@
     gap: 20px;
 }
 
-.modify1_S1{
+.modify1_S1 {
     width: auto;
     padding: 16px 20px;
 }
 
-.modify2_S1{
+.modify2_S1 {
     padding: 15px 20px;
 }
 
+.Comments_Content_Modal__S1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: var(--Primary-Color-03);
+    border: 1px solid var(--BorderColor-1);
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+
+.degradadoSSS {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(54, 54, 54, 0) 100%);
+    z-index: 200;
+}

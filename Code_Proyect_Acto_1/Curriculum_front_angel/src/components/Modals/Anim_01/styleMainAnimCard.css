@@ -1,56 +1,50 @@
 @import url(./../../../styelsGlobal/mainColors.css);
 
+:root {
+    --VarColor-Border-01: #ffffff1a;
+}
+
 .mainAnimCard {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 200px;
-    cursor: pointer;
+    width: 340px;
+    height: 100%;
+    /* cursor: pointer; */
+    position: relative;
     /* background-color: rgba(255, 0, 0, 0.479); */
 }
 
-.Comments_Content_Modal__S1 {
-    display: flex;
-    flex-direction: column;
-    border-radius: 25px;
-    background-color: var(--Primary-Color-03);
-    border: 1px solid var(--BorderColor-1);
-    overflow: hidden;
-    transition: all .5s ease;
-}
-
-.contenAnimCard_S1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    /* background-color: rgba(0, 0, 255, 0.322); */
-    padding: 20px;
-    /* overflow: hidden; */
-    z-index: 100;
+.no-drag_S1 {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-select: none;
 }
 
 .backgroundBTN__LiveWork {
     display: flex;
+    width: 100%;
+    height: 100%;
     position: relative;
-    background-color: rgba(0, 255, 255, 0.445);
+    /* background-color: rgba(0, 255, 255, 0.397); */
     z-index: 10;
     /* overflow: hidden; */
 }
 
-.circleColor_LiveWork{
+.circleColor_LiveWork {
     display: flex;
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: #353535;
     position: absolute;
     z-index: 10;
     bottom: -100px;
     right: -100px;
-    box-shadow: 0 0 60px 30px #242424;
+    box-shadow: 0 0 60px 30px #2e2e2e;
     -webkit-filter: blur(50px);
+    opacity: 40%;
+    transition: all .5s ease;
 }
 
 
@@ -65,5 +59,136 @@
 } */
 
 
-/* contenAnimCard_S1 */
+/*   contenAnimCard_S1   */
+.contenAnimCard_S1 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 93%;
+    height: 93%;
+    border-radius: 16px;
+    /* background-color: rgba(0, 0, 255, 0.322); */
+    padding: 15px;
+    z-index: 100;
+    border: 1px solid var(--VarColor-Border-01);
+}
 
+.imageTopBG__LiveWork {
+    position: absolute;
+    width: 120%;
+    top: -60px;
+    right: -100px;
+    opacity: 5%;
+    transform: rotate(30deg);
+    transition: all .5s ease;
+    pointer-events: none;
+}
+
+/* TOP  __ */
+.imgTop_Right_S1 {
+    width: 100%;
+}
+
+.topCardAnim_S1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftTop_S1 {
+    flex: 0.5;
+    margin: 0;
+    line-height: .5;
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+
+.rightTop_S1 {
+    flex: .5;
+    margin: 0;
+    line-height: .5;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+.subText_LeftTop__S1 {
+    font-size: 8pt;
+    color: var(--Primary-Color-06);
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    opacity: 70%;
+}
+
+/*   BOTTOM   __ */
+.bottomCardAnim_S1 {
+    display: flex;
+    gap: 20px;
+}
+
+.leftBottom_S1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.tittle_Left__S1 {
+    color: var(--ColorMain-03);
+    line-height: auto;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+}
+
+.subText_Left__S1 {
+    color: var(--ColorMain-03);
+    line-height: auto;
+    font-size: 7pt;
+    text-align: justify;
+}
+
+.rightBottom_S1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btnTryMyApp_S1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2c2c;
+    color: var(--Primary-Color-05);
+    border: none;
+    line-height: none;
+    padding: 25px;
+    border-radius: 50%;
+    transition: all .5s ease, opacity .3s ease;
+    cursor: pointer;
+    font-size: 12pt;
+}
+
+.btnTryMyApp_S1 i {
+    transform: rotate(-90deg);
+    transition: color .2s ease, transform .5s ease;
+}
+
+.btnTryMyApp_S1:hover {
+    background-color: var(--Primary-Color-01);
+    color: white;
+}
+
+.btnTryMyApp_S1:hover i {
+    transform: rotate(-450deg);
+}
+
+
+.btnTryMyApp_S1:active {
+    opacity: 50%;
+}
+
+.mainAnimCard:hover .circleColor_LiveWork {
+    background-color: var(--Primary-Color-07);
+    box-shadow: 0 0 60px 60px var(--Primary-Color-07);
+}
