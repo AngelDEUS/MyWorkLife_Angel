@@ -1,0 +1,140 @@
+@import url('./../../styelsGlobal/mainColors.css');
+
+.contanerHeaderPortfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.backHeader_Portf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.logoContentMask_Porft {
+    display: flex;
+    position: absolute;
+    z-index: 20;
+    transform: rotate(22deg);
+    right: 180px;
+    width: 500px;
+}
+
+.backText_Portf {
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 10;
+    color: var(--ColorMain-03);
+    font-weight: 900;
+    font-size: calc(10vw);
+    white-space: nowrap;
+    bottom: -32px;
+    opacity: 10%;
+}
+
+.degrade_BACK {
+    display: flex;
+    width: 100%;
+    height: 22vh;
+    position: absolute;
+    z-index: 40;
+    bottom: -32px;
+    background: rgb(31, 31, 31);
+    background: linear-gradient(0deg, rgba(31, 31, 31, 1) 44%, rgba(0, 0, 0, 0) 100%);
+}
+
+.frontHeader_Portf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    z-index: 160;
+    transition: all 0.5s ease;
+    margin-top: 10vh;
+}
+
+.tittleDefault {
+    color: var(--Primary-Color-01);
+    text-transform: uppercase;
+    font-size: 42pt;
+    font-weight: bold;
+    z-index: 200;
+}
+
+.tittleDefaultGroup_Portf {
+    position: relative;
+}
+
+.flagColor {
+    color: var(--Primary-Color-06);
+    margin-left: 15px;
+}
+
+.imgLogoTittle_Portf {
+    display: flex;
+    width: 80px;
+    z-index: 0;
+    position: absolute;
+    top: 5px;
+    right: -30px;
+}
+
+.subtitleNameProject {
+    font-size: 11pt;
+    color: var(--ColorMain-03);
+    margin: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.tagColorPry01 {
+    color: var(--Primary-Color-01);
+    font-weight: 600;
+}
+
+.frontHeader_Portf i {
+    color: var(--Primary-Color-01);
+    font-size: 20pt;
+    font-weight: 800;
+    margin-top: 20px;
+    animation: fade 4s ease infinite, fadeMove 4s ease-in-out infinite;
+}
+
+/* Animación_____ */
+@keyframes fade {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .20;
+    }
+}
+
+@keyframes fadeMove {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}

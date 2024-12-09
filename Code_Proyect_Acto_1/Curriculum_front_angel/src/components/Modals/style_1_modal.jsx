@@ -5,6 +5,17 @@ import MainContentPortfolio from './ContentPorfolio/mainContentPortfolio'
 import CardLeftInfo from './CardLeftInfo/cardLeftInfo'
 
 const Style1Modal = () => {
+
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        }
+    };
+
     return (
         <div className="mainContainer_ModalS1">
             <div className="degradadoSSS" />
@@ -42,10 +53,18 @@ const Style1Modal = () => {
                 <button type="button" className="btnModal_S1">
                     <i className="bi bi-heart-fill"></i>
                 </button>
-                <button type="button" className="btnModal_S1">
+                <button
+                    type="button"
+                    className="btnModal_S1"
+                    onClick={() => scrollToSection('infoModal')}
+                >
                     <i className="bi bi-flag-fill"></i>
                 </button>
-                <button type="button" className="btnModal_S1">
+                <button
+                    type="button"
+                    className="btnModal_S1"
+                    onClick={() => scrollToSection('commentsModal')}
+                >
                     <i className="bi bi-chat-square-text-fill"></i>
                 </button>
                 <button type="button" className="btnModal_S1 closeModal_S1">

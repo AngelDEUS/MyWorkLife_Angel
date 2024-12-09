@@ -119,7 +119,6 @@
     transition: all .5s ease;
 }
 
-
 /* LEFT CONTENT    ---------> */
 .leftInfoModal_S1 {
     display: flex;
@@ -248,6 +247,9 @@
     border-radius: 25px;
     background-color: var(--Primary-Color-03);
     border: 1px solid var(--BorderColor-1);
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .infoAll_ModalS1 {
@@ -284,3 +286,4 @@
     background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(54, 54, 54, 0) 100%);
     z-index: 200;
 }
+
