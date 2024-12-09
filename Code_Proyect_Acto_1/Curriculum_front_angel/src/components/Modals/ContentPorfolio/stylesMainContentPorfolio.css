@@ -1,10 +1,14 @@
+@import url('./../../../styelsGlobal/mainColors.css');
+
 .mainContainer__ContentPortfolio {
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: auto;
     /* padding: 17px 19px; */
     box-sizing: border-box;
+    border-radius: 25px;
+    overflow: hidden;
+    gap: 45px;
 }
 
 .headerAlwaysTOP {
@@ -14,6 +18,45 @@
 .content_TopPortfolio {
     width: 100%;
     height: auto;
-    background-color: aqua;
     box-sizing: border-box;
+}
+
+.galleryDivider {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    opacity: 5%;
+}
+
+.content_BottomPortfolio__Galery {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px 45px 25px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.tittleGallery_S1 {
+    color: var(--ColorMain-03);
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph_gallery_S1 {
+    width: 500px;
+    color: var(--Primary-Color-06);
+    opacity: 35%;
+    font-size: 10pt;
+    text-align: justify;
+}
+
+.tagColor__S1 {
+    color: var(--Primary-Color-01);
+}
+
+.content_TopPortfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
 }
