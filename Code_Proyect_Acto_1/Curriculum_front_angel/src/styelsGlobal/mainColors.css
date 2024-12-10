@@ -4,6 +4,7 @@
     --ColorMain-01: #e32121;
     --ColorMain-02: #18191a;
     --ColorMain-03: #d3d3d3;
+    --ColorMain-03-mid: #d3d3d3a8;
     --ColorMain-04: #b6b6b6;
     
     --ColorText-03: #d3d3d37a;
@@ -26,6 +27,7 @@
     --SUBPrimary-Color-shadows-01: #391b22;
     --SUBPrimary-Color-sidebutton-01: #2e2e2e;
     --LogoMiddle-Languge-01: #272727;
+    --SUBPrimary-Color-navbar-border-01: #66666677;
 
     /*   COLORES PRIMARIOS NAVBAR  */
     --Color-NavBarPort-01: #ebebeb;

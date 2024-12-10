@@ -1,0 +1,89 @@
+@import url('./../../../../styelsGlobal/mainColors.css');
+
+.mainTemplate_02_Porfolio {
+    display: flex;
+    gap: 25px;
+}
+
+.imgContainer02_Style_S1 {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.imgTemplate02_S1 {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.degradedImgTemplate {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    z-index: 100;
+    background: rgb(31, 31, 31);
+    background: linear-gradient(0deg, rgba(31, 31, 31, 0.98) 0%, rgba(31, 31, 31, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* TEXT TEMPLATE */
+
+.textContainer02_PortfS1 {
+    display: flex;
+    flex: .7;
+    flex-direction: column;
+    text-align: left;
+}
+
+.titleTemplate02_S1 {
+    color: var(--ColorMain-03);
+    font-size: 25pt;
+    margin: 0;
+    padding: 0;
+}
+
+.textParagraph02_S1 {
+    text-align: justify;
+    text-align-last: left;
+    color: var(--ColorMain-03-mid);
+    opacity: 50%;
+    font-size: 10pt;
+}
+
+.text_Template02_S1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.tittleListItems02_S1 {
+    color: var(--ColorMain-03);
+    font-size: 15pt;
+    margin: 20px 0;
+    padding: 0;
+}
+
+
+.listItems_template02 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.itemTemplate02_S1 {
+    color: var(--Primary-Color-05);
+    font-size: 10pt;
+}
+
+.itemTemplate02_S1::marker {
+    opacity: 100%;
+    color: var(--Primary-Color-01);
+    font-size: 12pt;
+    opacity: 100%;
+}

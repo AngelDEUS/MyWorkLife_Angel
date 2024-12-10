@@ -6,7 +6,6 @@
     --Btn-Modal-Resize-1: 40px;
     --Img-PP-Size-1: 60px;
 
-
     --BorderColor-1: #ffffff0a;
     --BorderColor-2: #ffffff25;
 }
@@ -18,13 +17,25 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10000;
     top: 0;
     left: 0;
     gap: 30px;
     opacity: 1;
     transition: opacity .3s ease;
+    pointer-events: fill;
+}
+
+.mainContainer_ModalS1.fade-in {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* Cuando el modal está cerrando */
+.mainContainer_ModalS1.fade-out {
+    opacity: 0;
+    pointer-events: none;
 }
 
 /*  BOTONES    ////------> */
