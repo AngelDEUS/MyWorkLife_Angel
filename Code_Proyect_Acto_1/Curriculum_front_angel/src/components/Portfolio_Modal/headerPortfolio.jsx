@@ -16,7 +16,7 @@ const HeaderPortfolio = () => {
             <div className="backHeader_Portf">
                 <div className="degrade_BACK" />
                 <img src={LogoHeaderProject} alt="logoheader.png" className="logoContentMask_Porft" />
-                <span className="backText_Portf">THE PRROJECT</span>
+                <span className="backText_Portf">THE PROJECT</span>
             </div>
         </div>
     )

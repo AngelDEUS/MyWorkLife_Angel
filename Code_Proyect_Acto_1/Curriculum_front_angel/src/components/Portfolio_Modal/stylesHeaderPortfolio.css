@@ -38,7 +38,7 @@
     z-index: 10;
     color: var(--ColorMain-03);
     font-weight: 900;
-    font-size: calc(10vw);
+    font-size: calc(11vw);
     white-space: nowrap;
     bottom: -32px;
     opacity: 10%;
