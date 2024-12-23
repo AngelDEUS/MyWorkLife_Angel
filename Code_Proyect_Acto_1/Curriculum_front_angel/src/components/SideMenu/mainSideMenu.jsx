@@ -1,8 +1,7 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./stylesSideMenu.css";
 import routes from "./../../Routes/router";
-import AppRoutes from '../../Routes/AppRoutes';
+// import AppRoutes from '../../Routes/AppRoutes';
 
 const MainSideMenu = () => {
   return (
