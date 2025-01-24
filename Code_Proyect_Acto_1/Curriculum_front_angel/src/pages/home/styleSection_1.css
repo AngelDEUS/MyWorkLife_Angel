@@ -1,0 +1,144 @@
+@import url('./../../styelsGlobal/mainColors.css');
+
+:root {
+    --Padding-global-01: 10vh 19vh 0px 19vh;
+    --Padding-global-02: 0vh 19vh;
+}
+
+.main__Section_1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 87vh;
+    overflow: hidden;
+}
+
+.top_Section_1 {
+    padding: var(--Padding-global-01);
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle_Section_1 {
+    color: var(--ColorMain-03);
+    font-size: 80pt;
+    margin: 0px;
+}
+
+.subTittle_Section_1 {
+    width: 68vh;
+    color: var(--Primary-Color-01);
+    font-size: 30pt;
+    margin: 0px;
+    line-height: 6vh;
+}
+
+/*         BACKGROUND         */
+.bottom_Section_1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/*FRont----->> */
+.front_bienvenido__sec_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    z-index: 50;
+    padding: var(--Padding-global-02);
+}
+
+.leftText__sect_1 {
+    bottom: 0;
+    width: 180px;
+    color: var(--ColorMain-03);
+    font-weight: 400;
+    font-size: 13pt;
+    opacity: 60%;
+}
+
+.rightCont__sect_1 {
+    bottom: 0;
+    display: flex;
+
+    width: 350px;
+    text-align: right;
+}
+
+.rightCont__sect_1 i {
+    display: flex;
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+    color: var(--Primary-Color-01);
+    font-weight: 1000;
+    font-size: 30pt;
+}
+
+.rightText__sect_1 {
+    color: var(--ColorMain-03);
+    font-weight: 400;
+    font-size: 13pt;
+    margin-bottom: 60px;
+    opacity: 60%;
+}
+
+/*BAck----->> */
+.back_bienvenido__sec_1 {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100px);
+}
+
+.background__gradient {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgb(24,25,26);
+    background: linear-gradient(0deg, rgba(24,25,26,1) 43%, rgba(0,0,0,0) 100%);
+}
+
+.img_IackFrontPart__sec_1 {
+    align-items: center;
+    justify-content: center;
+    opacity: 0.05;
+    position: absolute;
+    rotate: 30deg;
+    pointer-events: none;
+    bottom: -200px;
+}
+
+.img_IackFrontPartMask__sec_1 {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    rotate: 30deg;
+    pointer-events: none;
+    bottom: -200px;
+    opacity: 0.05;
+}
+
+
+
+.bienvenidoBackText__sec_1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: calc(15.5vw);
+    color: var(--ColorMain-03);
+    font-weight: 900;
+    opacity: 0.1;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow: hidden;
+    pointer-events: none;
+}

@@ -1,0 +1,193 @@
+@import url('./../../styelsGlobal/mainColors.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.main__Section_3 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ColorMain-02);
+    width: 100%;
+    position: relative;
+}
+
+.gradientSection_3 {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: rgb(24,25,26);
+    background: linear-gradient(0deg, rgba(24,25,26,1) 0%, rgba(31,31,31,1) 100%);
+}
+
+.content__Sect3 {
+    margin: 30px 80px;
+    border-radius: 20px;
+}
+
+.topProyects__Sect3 {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.upperSep__Sect3 {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.lineSep__Sect3 {
+    width: 100%;
+    height: 1px;
+    background-color: var(--ColorMain-03);
+    opacity: 10%;
+}
+
+
+.coverPicturre__Sect3 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 20px solid var(--ColorMain-02);
+    background-color: var(--Primary-Color-03);
+}
+
+.profilePicture__Sect3 {
+    object-fit: cover;
+    width: 200px;
+    transform: translateY(60px) translateX(-8px);
+    transition: all .5s ease;
+}
+
+.downInffo_Sect3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.subTittle__Sect_3 {
+    font-family: "Montserrat", serif;
+    color: var(--ColorMain-03);
+    font-size: 25pt;
+    margin: 0;
+}
+
+.paragh__Sect_3 {
+    color: var(--ColorMain-03);
+    font-size: 12pt;
+    margin: 0;
+    opacity: 50%;
+}
+
+.paragh__Sect_3 i {
+    color: var(--Primary-Color-01);
+}
+
+.seeProyectsBTN__Sect_3 {
+    padding: 15px 22px;
+    background-color: var(--Primary-Color-01);
+    color: white;
+    border: 1px solid var(--Primary-Color-01);
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 13pt;
+    margin: 0;
+    font-weight: 600;
+    transition: opacity .25s ease, background-color .5s ease;
+}
+
+.seeProyectsBTN__Sect_3:hover {
+    background-color: transparent;
+}
+
+.seeProyectsBTN__Sect_3:active {
+    opacity: 50%;
+    background-color: var(--Primary-Color-01);
+}
+
+
+
+/* PROYECTS CARDS ----->>> */
+.downProyectsCards__Sect3 {
+    display: flex;
+    gap: 40px;
+    margin-top: 120px;
+    pointer-events: none;
+}
+
+.cardProyectEnjoy__Sect3 {
+    background-color: #131414;
+    width: 290px;
+    height: auto;
+    border-radius: 30px;
+    padding: 15px;
+    pointer-events: none;
+}
+
+.topCoverProyectIMG__Sect3 {
+    width: 290px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.tittleCarrdProyect__Sect3 {
+    color: var(--ColorMain-03);
+    font-size: 10pt;
+    opacity: 50%;
+    pointer-events: none;
+}
+
+
+
+
+/* Contenedor del carrusel */
+/* Contenedor principal del carrusel */
+.carousel__Sect3 {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+/* Pista que contiene las tarjetas */
+.carousel-track__Sect3 {
+    display: flex;
+    animation: scrollCarousel 20s linear infinite;
+}
+
+/* Tarjetas del carrusel */
+.cardProyectEnjoy__Sect3 {
+    background-color: #131414;
+    width: 290px;
+    margin: 0 10px;
+    border-radius: 30px;
+    padding: 15px;
+    flex-shrink: 0;
+}
+
+/* Animación de desplazamiento continuo */
+/* @keyframes scrollCarousel {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+} */

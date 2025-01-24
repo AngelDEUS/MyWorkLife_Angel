@@ -1,0 +1,24 @@
+{
+    "mainProjects": [
+        {
+            "id_project": 1,
+            "title_project": "Random Star Assistant",
+            "src_bg_project": "Random_Star_Assistant_Background.jpg"
+        },
+        {
+            "id_project": 2,
+            "title_project": "Stormy Sales",
+            "src_bg_project": "Stormy_Sales_Background.jpg"
+        },
+        {
+            "id_project": 3,
+            "title_project": "Ilustraciones",
+            "src_bg_project": "Illustrations_Portfolio.jpg"
+        },
+        {
+            "id_project": 4,
+            "title_project": "Proyecto Móvil Inventario",
+            "src_bg_project": "Movil_Inventario_background.jpg"
+        }
+    ]
+}

@@ -1,0 +1,296 @@
+@import url('./../../styelsGlobal/mainColors.css');
+
+:root {
+    --allColorRed: #f21139;
+}
+
+.mainContactMe {
+    display: flex;
+    width: 100%;
+}
+
+.fullSubContent_CtmMe {
+    display: flex;
+    width: 100%;
+    padding: 5vh 19vh;
+    gap: 50px;
+}
+
+.left__CtmMe {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right__CtmMe {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    position: relative;
+    background-color: var(--allColorRed);
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 20px 40px;
+    gap: 40px;
+}
+
+/* LEFT CONTENT ///------>>>> */
+.contentLeftFull {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title1__CtmMe {
+    color: #fff;
+    font-size: 22pt;
+    width: 200px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.title1__CtmMe .clueMark {
+    color: var(--allColorRed);
+}
+
+/* ICONS */
+.iconsLinksGo__CtmMe {
+    display: flex;
+    color: var(--allColorRed);
+    gap: 40px;
+    font-size: 16pt;
+}
+
+.iconsLinksGo__CtmMe i {
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.iconsLinksGo__CtmMe i:hover {
+    color: var(--ColorMain-03-mid)
+}
+
+.iconsLinksGo__CtmMe i:active {
+    color: var(--allColorRed)
+}
+
+
+/* groupInfo__CtmMe THINGS --> */
+.groupInfo__CtmMe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nameTag__CtmMe {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 0;
+    font-size: 14pt;
+}
+
+.subTitle__CtmMe {
+    font-size: 13pt;
+    color: var(--ColorMain-03);
+    margin: 0;
+}
+
+.nameTag__CtmMe i {
+    color: var(--allColorRed);
+    margin: 0;
+}
+
+.contextInfo__CtmMe {
+    color: var(--ColorMain-03);
+    opacity: 50%;
+    font-size: 11pt;
+    margin: 0;
+    margin-left: 35px;
+}
+
+/* Right CONTENT ///------>>>> */
+.backGround__CtmMe {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.anyProject__CtmMe {
+    width: 600px;
+    font-size: 22pt;
+    color: var(--ColorMain-02);
+}
+
+.BackgroundIMG_CtmMe {
+    display: flex;
+    opacity: 5%;
+    pointer-events: none;
+    rotate: 10deg;
+    width: 200%;
+    transition: all .5s ease;
+    transform: translateX(400px) translateY(-100px);
+}
+
+.exp__CtmMe {
+    color: var(--ColorMain-02);
+    font: 12pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.rightLogo__CtmMe {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 120px;
+}
+
+/* INPUTS ---->>> */
+.sectionInputsShorts__CtmMe {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    z-index: 10;
+}
+
+.inputGroup__CtmMe {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 12pt;
+    width: 100%;
+}
+
+.labelInput__CtmMe {
+    color: var(--ColorMain-02);
+    font-weight: bold;
+}
+
+.inputClass {
+    color: var(--ColorMain-02);
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--ColorMain-02);
+    padding: 5px 0;
+}
+
+.inputGroup__CtmMe textarea {
+    font-size: 12pt;
+    height: 20px;
+    min-height: 20px;
+    letter-spacing: normal;
+    font-family: "Poppins", serif;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.inputClass::placeholder {
+    color: var(--ColorMain-02);
+    opacity: 70%;
+    font-size: 11pt;
+}
+
+/* CHECK ITEMS ---->> */
+.labelcheck__CtmMe {
+    color: var(--ColorMain-02);
+    opacity: 100%;
+    font-size: 11pt;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.list_ItemsSelects__CtmMe {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-top: 18px;
+}
+
+.checkBox_Container {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.checkBox_Container input[type="checkbox"] {
+    position: relative;
+    width: 27px;
+    height: 27px;
+    background-color: var(--allColorRed);
+    border: 1px solid var(--ColorMain-02);
+    border-radius: 10px;
+    cursor: pointer;
+    appearance: none;
+    transition: all .1s ease;
+}
+
+.checkBox_Container input[type="checkbox"]:checked {
+    background-color: var(--ColorMain-02);
+}
+
+.checkBox_Container input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    width: 5px;
+    height: 13px;
+    border: 2px solid transparent;
+    border-left: none;
+    border-top: none;
+    transform: rotate(45deg) scale(1);
+}
+
+.checkBox_Container input[type="checkbox"]:checked:before {
+    border-color: var(--allColorRed);
+    animation: checkAnim .3s ease;
+}
+
+@keyframes checkAnim {
+    from {
+        transform: rotate(45deg) scale(0);
+    }
+}
+
+/* BTN FINAL ---->> */
+.btnForm__CtmMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: var(--ColorMain-02);
+    color: var(--ColorMain-03-mid);
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 16pt;
+    font-style: italic;
+    transition: all .3s ease;
+    border: none;
+    outline: none;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.btnForm__CtmMe:hover {
+    color: var(--ColorMain-03);
+}
+
+.btnForm__CtmMe:active {
+    color: var(--ColorMain-03-mid);
+}

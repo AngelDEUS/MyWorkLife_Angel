@@ -8,8 +8,8 @@ const MainNavbarLayout_2 = () => {
     <div className='mainNavbarLayout_2'>
       <div className="contentNavBar_Layout_2">
         <div className="leftContent_Navbar_2">
-          <img src={LogoFront} alt="logo.png" className="logoFront_Nvb2" />
-          <img src={LogoBack} alt="logo.png" className="logoBack_Nvb2" />
+          <img src={LogoFront} alt="logo.png" className="logoFront_Nvb2" draggable="false"/>
+          <img src={LogoBack} alt="logo.png" className="logoBack_Nvb2" draggable="false"/>
         </div>
         <div className="rrightContent_Navbar_2">
           <ul className="listItems_Nvb2">
