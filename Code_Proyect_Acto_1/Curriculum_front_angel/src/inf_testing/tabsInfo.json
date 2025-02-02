@@ -1,0 +1,59 @@
+{
+    "tabsInfo": [
+        {
+            "id_tab": 1,
+            "title_tab": "Diseño",
+            "percent_tab": "90",
+            "desc_tab": "Experiencia en diseño UI/UX enfocado en la creación de interfaces intuitivas y atractivas para el usuario final. Amplia capacidad de análisis en usabilidad y experiencia de usuario.",
+            "tags_project": [
+                "Creación de Wireframes",
+                "Diseño de Interfaces",
+                "Figma",
+                "Adobe XD",
+                "Photoshop",
+                "Illustrator"
+            ]
+        },
+        {
+            "id_tab": 2,
+            "title_tab": "Desarrollo - FrontEnd",
+            "percent_tab": "85",
+            "desc_tab": "Desarrollo de aplicaciones web responsivas y optimizadas utilizando tecnologías modernas como React y Next.js. Fuerte enfoque en la accesibilidad y el rendimiento.",
+            "tags_project": [
+                "HTML5",
+                "CSS3 / SASS",
+                "JavaScript / TypeScript",
+                "React.js",
+                "Next.js",
+                "TailwindCSS"
+            ]
+        },
+        {
+            "id_tab": 3,
+            "title_tab": "Desarrollo - BackEnd",
+            "percent_tab": "75",
+            "desc_tab": "Implementación de API REST y GraphQL con arquitecturas escalables, utilizando Node.js y bases de datos SQL/NoSQL. Enfoque en seguridad y buenas prácticas.",
+            "tags_project": [
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "MySQL",
+                "PostgreSQL",
+                "JWT / OAuth"
+            ]
+        },
+        {
+            "id_tab": 4,
+            "title_tab": "Social Media",
+            "percent_tab": "80",
+            "desc_tab": "Creación de contenido atractivo y estrategias de marketing digital para aumentar el engagement en plataformas como Instagram, Facebook y LinkedIn.",
+            "tags_project": [
+                "Marketing Digital",
+                "Gestión de Redes",
+                "Estrategias de Engagement",
+                "Creación de Contenido",
+                "SEO / SEM"
+            ]
+        }
+    ]
+}

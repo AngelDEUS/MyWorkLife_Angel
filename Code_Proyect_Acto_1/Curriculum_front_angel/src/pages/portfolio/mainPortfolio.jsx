@@ -1,6 +1,6 @@
 import CardP_Best from '../../components/Cards/CardP_Best'
 import NavBarPorfolio from '../../components/NavBar/NavbarPorfolio/NavBarPorfolio'
-import projectsData from '../../inf_testing/Projects_array'
+import projectsData from '../../inf_testing/Projects_array.json'
 
 const MainPortfolio = () => {
   const { projects } = projectsData;

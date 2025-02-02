@@ -1,0 +1,97 @@
+@import url('./../../styelsGlobal/mainColors.css');
+
+:root {
+    --all-SEP-Mid: 70px;
+}
+
+.mainAboutMe_Sect_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.topAboutMe__Sect2 {
+    display: flex;
+    width: 100%;
+    gap: var(--all-SEP-Mid);
+}
+
+.topAboutMe__Sect2 .resumen {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+}
+
+.topAboutMe__Sect2 .headerIMGRight {
+    display: flex;
+    flex: 1;
+    width: 300px;
+    height: fit-content;
+}
+
+.subTitle_AboutMe {
+    display: flex;
+    margin: 0;
+    font-size: 30pt;
+    color: var(--Primary-Color-01);
+    font-style: italic;
+    font-weight: 600;
+}
+
+.pharagAboutMe {
+    display: flex;
+    margin: 0;
+    font-size: 10pt;
+    color: var(--ColorMain-03-mid);
+    text-align: justify;
+}
+
+/* myExpAndEdu       */
+.myExpAndEdu {
+    display: flex;
+    gap: var(--all-SEP-Mid);
+}
+
+.groupInfo__Sect {
+    display: flex;
+    flex-direction: column;
+}
+
+.sepAboutMe {
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: var(--ColorMain-03);
+    opacity: 10%;
+}
+
+.myExpAndEdu .subGroupInf__SS {
+    display: flex;
+    margin: 0;
+    gap: 20px;
+}
+
+.myExpAndEdu .subGroupInf__SS .right_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.subTitle_AboutMe_2 {
+    margin: 0;
+    color: var(--ColorMain-03);
+    font-size: 12pt;
+    text-transform: capitalize;
+}
+
+.subSUBTitle_AboutMe {
+    margin: 0;
+    color: var(--ColorMain-03-mid);
+    font-size: 10pt;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    opacity: 50%;
+}

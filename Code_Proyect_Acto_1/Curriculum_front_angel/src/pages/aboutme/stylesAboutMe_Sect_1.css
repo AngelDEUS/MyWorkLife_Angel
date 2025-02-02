@@ -1,15 +1,171 @@
+@import url('./../../styelsGlobal/mainColors.css');
 
-
-.mainAboutMe_Sect_1{
+.mainAboutMe_Sect_1 {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: red;
 }
 
-.header_AbtMSect_1{
+.header_AbtMSect_1 {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.topHeaderGrup_Stc1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin: 0;
+}
+
+.tittleAboutMe {
+    display: flex;
+    margin: 0;
+    font-size: 50pt;
+    gap: 10px;
+    color: var(--ColorMain-03);
+}
+
+.mainAboutMe_Sect_1 .ColoredRed {
+    color: var(--Primary-Color-01);
+}
+
+.textAboutMe {
+    font-size: 12pt;
+    color: var(--ColorMain-03);
+    margin: 0;
+}
+
+.contentHeader_Stc1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    z-index: 10;
+    transition: all .5s ease;
+    transform: translateY(-30px);
+}
+
+.frontIMG_Sect1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.imgPortada_AbtMSect_1 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.textThingsIMG {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 195px;
+    left: 55px;
+    gap: 15px;
+    width: 250px;
+}
+
+.textThingsIMG .titleAboutMe {
+    display: flex;
+    font-size: 20pt;
+    margin: 0;
+    color: var(--ColorMain-03);
+}
+
+.textThingsIMG .titleAboutMe .ColoredRed {
+    margin-left: 8px;
+}
+
+.textThingsIMG .textP {
+    display: flex;
+    color: var(--ColorMain-03);
+    text-align: left;
+    font-size: 10pt;
+    opacity: 50%;
+    margin: 0;
+}
+
+
+.textThingsIMG .AprendeAboutme {
+    color: #fff;
+    background-color: var(--Primary-Color-01);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 10pt;
+    text-align: center;
+    padding: 10px 12px;
+    transition: all .5s ease;
+    margin: 0;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.textThingsIMG .AprendeAboutme:hover {
+    opacity: .7;
+}
+
+.textThingsIMG .AprendeAboutme:active {
+    opacity: 1;
+}
+
+
+.frontIMG_Sect1 .buttonsFloat {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.frontIMG_Sect1 .buttonsFloat .btnFloat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    border-style: inset;
+    border: 1px solid #ffffff25;
+    cursor: pointer;
+    background-color: var(--Primary-Color-03);
+    transition: all .33s ease;
+    overflow: hidden;
+}
+.frontIMG_Sect1 .buttonsFloat .btnFloat i{
+    display: flex;
+    margin: 0;
+    color: var(--ColorMain-03-mid);
+    font-size: 15pt;
+    transition: all .5s ease;
+}
+
+.frontIMG_Sect1 .buttonsFloat .btnFloat:hover{
+    border: 1px solid #ffffff2c;
+    background-color: var(--ColorMain-02);
+}
+
+.frontIMG_Sect1 .buttonsFloat .btnFloat:hover i{
+    color: var(--ColorMain-03);
+}
+
+
+.frontIMG_Sect1 .buttonsFloat .btnFloat:active{
+    border: 1px solid #ffffff25;
+    background-color: var(--Primary-Color-03);
 }
